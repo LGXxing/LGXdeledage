@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "LGXView.h"
+@interface ViewController : UIViewController<LGXViewDelegate>
 
 
 @end

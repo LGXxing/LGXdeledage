@@ -9,16 +9,32 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+{
+    
+    LGXView *views;
+}
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
-
+- (IBAction)clickbtn:(id)sender {
+    views = [[LGXView alloc]init];
+    views.delegate = self;
+    views.center = self.view.center;
+    [views show];
+    
+}
+- (void)Click
+{
+    [views disMiss];
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

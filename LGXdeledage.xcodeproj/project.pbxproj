@@ -15,6 +15,7 @@
 		979BE5A81D7D01380047F4F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979BE5A61D7D01380047F4F6 /* LaunchScreen.storyboard */; };
 		979BE5B31D7D01380047F4F6 /* LGXdeledageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 979BE5B21D7D01380047F4F6 /* LGXdeledageTests.m */; };
 		979BE5BE1D7D01380047F4F6 /* LGXdeledageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 979BE5BD1D7D01380047F4F6 /* LGXdeledageUITests.m */; };
+		979BE5CD1D7D01B90047F4F6 /* LGXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 979BE5CC1D7D01B90047F4F6 /* LGXView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		979BE5B91D7D01380047F4F6 /* LGXdeledageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGXdeledageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		979BE5BD1D7D01380047F4F6 /* LGXdeledageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGXdeledageUITests.m; sourceTree = "<group>"; };
 		979BE5BF1D7D01380047F4F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979BE5CB1D7D01B90047F4F6 /* LGXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGXView.h; sourceTree = "<group>"; };
+		979BE5CC1D7D01B90047F4F6 /* LGXView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGXView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				979BE59C1D7D01380047F4F6 /* AppDelegate.m */,
 				979BE59E1D7D01380047F4F6 /* ViewController.h */,
 				979BE59F1D7D01380047F4F6 /* ViewController.m */,
+				979BE5CB1D7D01B90047F4F6 /* LGXView.h */,
+				979BE5CC1D7D01B90047F4F6 /* LGXView.m */,
 				979BE5A11D7D01380047F4F6 /* Main.storyboard */,
 				979BE5A41D7D01380047F4F6 /* Assets.xcassets */,
 				979BE5A61D7D01380047F4F6 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				979BE5A01D7D01380047F4F6 /* ViewController.m in Sources */,
 				979BE59D1D7D01380047F4F6 /* AppDelegate.m in Sources */,
+				979BE5CD1D7D01B90047F4F6 /* LGXView.m in Sources */,
 				979BE59A1D7D01380047F4F6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
